@@ -1,5 +1,5 @@
 <script setup>
-import { RouterView } from 'vue-router'
+import {RouterView} from 'vue-router'
 </script>
 
 <template>
@@ -10,6 +10,13 @@ import { RouterView } from 'vue-router'
       <!--      <RouterLink to='/about'>About</RouterLink>-->
       <!--    </nav>-->
     </header>
-    <RouterView />
+    <main>
+      <RouterView/>
+    </main>
+    <v-footer>
+      <v-row>
+        <v-col class="text-center">{{ new Date().getFullYear() }} — <strong>Jason Talon</strong></v-col>
+      </v-row>
+    </v-footer>
   </v-app>
 </template>
