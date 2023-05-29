@@ -1,6 +1,8 @@
-# solar-calculator
+# Solar Off-Grid Calculator
 
 This template should help get you started developing with Vue 3 in Vite.
+## Live Site
+[https://solar-calculator-bdff4.web.app/](https://solar-calculator-bdff4.web.app/)
 
 ## Recommended IDE Setup
 
